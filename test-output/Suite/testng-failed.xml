@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test name="Test(failed)" parallel="tests">
+    <classes>
+      <class name="Grid.Grid">
+        <parameter name="browserName" value="IE"/>
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="f"/>
+          <include name="beforeTest"/>
+          <include name="afterSuite"/>
+          <include name="beforeClass"/>
+          <include name="afterTest"/>
+          <include name="afterMethod"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- Grid.Grid -->
+    </classes>
+  </test> <!-- Test(failed) -->
+  <test name="Test2(failed)" parallel="tests">
+    <classes>
+      <class name="Grid.Grid">
+        <parameter name="browserName" value="IE"/>
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="f"/>
+          <include name="beforeTest"/>
+          <include name="afterSuite"/>
+          <include name="beforeClass"/>
+          <include name="afterTest"/>
+          <include name="afterMethod"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- Grid.Grid -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+  <test name="Test1(failed)" parallel="tests">
+    <classes>
+      <class name="Grid.Grid">
+        <parameter name="browserName" value="Chrome"/>
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="f"/>
+          <include name="beforeTest"/>
+          <include name="afterSuite"/>
+          <include name="beforeClass"/>
+          <include name="afterTest"/>
+          <include name="afterMethod"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- Grid.Grid -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->

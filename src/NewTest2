@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="true">
+  <test name="NewTest2">
+    <classes>
+      <class name="tNG.NewTest2"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
